@@ -14,11 +14,11 @@ authors:
     affiliation: "AGH University of Krakow, Faculty of Metals Engineering and Industrial Computer Science"
     orcid: "https://orcid.org/0000-0001-5366-743X"
 repository-code: "https://github.com/kbzowski/ssrve-transformer"
-url: "https://doi.org/10.5281/zenodo.20202883"
+url: "https://doi.org/10.5281/zenodo.20208749"
 license: MIT
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.20202883"
+    value: "10.5281/zenodo.20208749"
     description: "Trained checkpoints and reference SSRVE dataset on Zenodo"
 keywords:
   - SSRVE
