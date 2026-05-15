@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "SSRVE Transformer: encoder-decoder transformer with differentiable Apollonius soft-Voronoi decoder for multiphase microstructure generation"
+message: "If you use this software, please cite the accompanying paper (preferred-citation below)."
+type: software
+authors:
+  - given-names: Krzysztof
+    family-names: Bzowski
+    email: kbzowski@agh.edu.pl
+    affiliation: "AGH University of Krakow, Faculty of Metals Engineering and Industrial Computer Science"
+    orcid: "https://orcid.org/0000-0002-1784-2584"
+  - given-names: "Łukasz"
+    family-names: Rauch
+    email: lrauch@agh.edu.pl
+    affiliation: "AGH University of Krakow, Faculty of Metals Engineering and Industrial Computer Science"
+    orcid: "https://orcid.org/0000-0001-5366-743X"
+repository-code: "https://github.com/kbzowski/ssrve-transformer"
+url: "https://doi.org/10.5281/zenodo.20202883"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20202883"
+    description: "Trained checkpoints and reference SSRVE dataset on Zenodo"
+keywords:
+  - SSRVE
+  - multiphase steel
+  - transformer
+  - differentiable tessellation
+  - microstructure generation
+  - deep learning
+  - optimal transport
+preferred-citation:
+  type: article
+  title: "Generation of statistically similar representative volume elements for multi-phase steels using an encoder-decoder transformer with differentiable soft-Voronoi tessellation"
+  authors:
+    - given-names: Krzysztof
+      family-names: Bzowski
+      orcid: "https://orcid.org/0000-0002-1784-2584"
+    - given-names: "Łukasz"
+      family-names: Rauch
+      orcid: "https://orcid.org/0000-0001-5366-743X"
+  journal: "Computational Materials Science"
+  year: 2026
+  doi: "TBA"

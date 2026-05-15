@@ -1,0 +1,136 @@
+{
+  "run_id": "2bdee2806af6424aa74b6bd02581c64b",
+  "experiment_id": "1",
+  "run_name": "smoke-test-v2",
+  "status": "FINISHED",
+  "start_time": "2026-04-16T17:05:22.335000+00:00",
+  "end_time": "2026-04-16T17:05:22.591000+00:00",
+  "duration_seconds": 0.256,
+  "user_id": "Krzysztof",
+  "params": {
+    "d_model": "128",
+    "n_heads": "4",
+    "n_encoder_layers": "2",
+    "n_decoder_layers": "3",
+    "latent_dim": "32",
+    "dropout": "0.1",
+    "dim_feedforward": "512",
+    "num_points": "70",
+    "params_per_point": "4",
+    "num_phases": "4",
+    "max_nucleation_ratio": "0.3",
+    "constant_compatibility": "0.5",
+    "constant_threshold": "0.5",
+    "curve_input_dim": "2",
+    "curve_max_len": "32",
+    "curve_num_samples": "16",
+    "t_start": "830.0",
+    "t_ms": "400.0",
+    "max_time": "1300.0",
+    "cr_log_mean": "0.0",
+    "cr_log_std": "1.0",
+    "gs_mean": "0.0",
+    "gs_std": "1.0",
+    "max_grain_size": "15.0",
+    "filter_max_frac_err": "0.03",
+    "filter_max_gs_err_pct": "10.0",
+    "cr_min": "null",
+    "cr_max": "null",
+    "sampler_weight_pow": "0.5",
+    "best_of_per_cr": "200",
+    "split_seed": "42",
+    "split_ratios": "0.7,0.15,0.15",
+    "holdout_cr_indices": "7,9",
+    "enable_augmentation": "False",
+    "phase_embed_dim": "4",
+    "phase_embed_trainable": "True",
+    "feat_w_nuc": "3.0",
+    "sinkhorn_blur_start": "0.2",
+    "sinkhorn_blur_end": "0.05",
+    "sinkhorn_blur_warmup_epochs": "60",
+    "sinkhorn_scaling": "0.9",
+    "grid_size": "500",
+    "real_size": "50.0",
+    "sv_grid_size": "64",
+    "sv_temp_start": "0.05",
+    "sv_temp_end": "0.005",
+    "sv_temp_warmup_epochs": "150",
+    "lambda_sv_frac": "5.0",
+    "lambda_sv_gs": "3.0",
+    "sv_periodic": "True",
+    "sv_use_nuc_weights": "True",
+    "sv_nuc_weight_scale": "0.5",
+    "sv_gumbel_ste": "False",
+    "sv_gumbel_start_epoch": "100",
+    "lambda_coverage": "3.0",
+    "coverage_ref_size": "16",
+    "lambda_s2": "5.0",
+    "lambda_boundary": "2.0",
+    "lambda_pair_dist": "1.0",
+    "batch_size": "64",
+    "lr": "0.0001",
+    "weight_decay": "1e-05",
+    "epochs": "3",
+    "lambda_sinkhorn": "1.0",
+    "lambda_marg_kl": "5.0",
+    "lambda_active": "2.0",
+    "lambda_n_active": "1.0",
+    "lambda_fractions": "2.0",
+    "lambda_grain_size": "5.0",
+    "inference_eval_every": "20",
+    "early_stopping_patience": "100",
+    "dataset_dir": "./dataset",
+    "cache_dir": "./cache",
+    "device": "cpu",
+    "checkpoint_dir": "./checkpoints",
+    "log_dir": "./runs",
+    "smoke": "True"
+  },
+  "metrics_final": {
+    "train/loss/total": 0.3333333333333333,
+    "val/loss/total": 0.39999999999999997
+  },
+  "metrics_history": {
+    "train/loss/total": [
+      {
+        "step": 0,
+        "value": 1.0,
+        "timestamp_ms": 1776359122406
+      },
+      {
+        "step": 1,
+        "value": 0.5,
+        "timestamp_ms": 1776359122466
+      },
+      {
+        "step": 2,
+        "value": 0.3333333333333333,
+        "timestamp_ms": 1776359122529
+      }
+    ],
+    "val/loss/total": [
+      {
+        "step": 0,
+        "value": 1.2,
+        "timestamp_ms": 1776359122434
+      },
+      {
+        "step": 1,
+        "value": 0.6,
+        "timestamp_ms": 1776359122499
+      },
+      {
+        "step": 2,
+        "value": 0.39999999999999997,
+        "timestamp_ms": 1776359122560
+      }
+    ]
+  },
+  "tags": {
+    "mlflow.user": "Krzysztof",
+    "mlflow.source.name": "-c",
+    "mlflow.source.type": "LOCAL",
+    "mlflow.runName": "smoke-test-v2"
+  },
+  "artefacts": []
+}

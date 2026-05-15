@@ -1,0 +1,46 @@
+# Conditional DDPM baseline for SSRVE generation.
+# Mirrors the transformer's conditioning input (cooling curve) and output
+# resolution (sv_grid_size=64) for an apples-to-apples comparison.
+
+data:
+  cache_dir: ../../cache               # reuse transformer's HDF5 cache (split indices)
+  dataset_dir: ../../dataset           # PKL ground-truth grids
+  grid_size: 64                        # match config.sv_grid_size
+  num_phases: 4                        # F, B, M, P (one-hot channels)
+  curve_max_len: 32                    # match transformer config
+  curve_input_dim: 2                   # (time, temperature) normalized
+
+model:
+  in_channels: 4                       # one-hot phases
+  out_channels: 4
+  block_out_channels: [64, 128, 256, 256]
+  layers_per_block: 2
+  attention_head_dim: 8
+  cross_attention_dim: 128             # matches encoder d_model
+  cond_encoder:
+    d_model: 128                       # mirrors transformer CoolingCurveEncoder
+    n_heads: 4
+    n_layers: 2
+    dim_feedforward: 512
+
+diffusion:
+  num_train_timesteps: 1000
+  beta_schedule: squaredcos_cap_v2
+  prediction_type: epsilon
+
+training:
+  batch_size: 64
+  lr: 1.0e-4
+  weight_decay: 1.0e-5
+  epochs: 100
+  ema_decay: 0.9995
+  val_every_epochs: 5
+  sample_every_epochs: 25              # generate sample grid for visual inspection
+  num_workers: 4
+  mixed_precision: fp16
+  random_seed: 42
+
+mlflow:
+  tracking_uri: http://localhost:5000  # match docker-compose mlflow stack
+  experiment_name: ssrve-baseline-ddpm
+  run_name: ddpm_v1

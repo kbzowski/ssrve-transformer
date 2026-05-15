@@ -1,0 +1,82 @@
+{
+  "run_id": "6563fe1105b141c6975ca1c83abe7286",
+  "experiment_id": "1",
+  "run_name": "summary-test",
+  "status": "FINISHED",
+  "start_time": "2026-04-16T17:37:20.893000+00:00",
+  "end_time": "2026-04-16T17:37:21.141000+00:00",
+  "duration_seconds": 0.248,
+  "user_id": "Krzysztof",
+  "params": {},
+  "metrics_final": {
+    "phys/mean_frac_err": 0.03333333333333333,
+    "grad/log10_norm_total": 2.0791812460476247,
+    "summary/best_val_loss": 0.123,
+    "summary/best_mean_frac_err": 0.0102,
+    "summary/at_best/frac_err_ferrite": 0.008
+  },
+  "metrics_history": {
+    "phys/mean_frac_err": [
+      {
+        "step": 0,
+        "value": 0.1,
+        "timestamp_ms": 1776361040921
+      },
+      {
+        "step": 1,
+        "value": 0.05,
+        "timestamp_ms": 1776361040975
+      },
+      {
+        "step": 2,
+        "value": 0.03333333333333333,
+        "timestamp_ms": 1776361041036
+      }
+    ],
+    "grad/log10_norm_total": [
+      {
+        "step": 0,
+        "value": 2.0,
+        "timestamp_ms": 1776361040945
+      },
+      {
+        "step": 1,
+        "value": 2.041392685158225,
+        "timestamp_ms": 1776361041006
+      },
+      {
+        "step": 2,
+        "value": 2.0791812460476247,
+        "timestamp_ms": 1776361041071
+      }
+    ],
+    "summary/best_val_loss": [
+      {
+        "step": 0,
+        "value": 0.123,
+        "timestamp_ms": 1776361041100
+      }
+    ],
+    "summary/best_mean_frac_err": [
+      {
+        "step": 0,
+        "value": 0.0102,
+        "timestamp_ms": 1776361041100
+      }
+    ],
+    "summary/at_best/frac_err_ferrite": [
+      {
+        "step": 0,
+        "value": 0.008,
+        "timestamp_ms": 1776361041100
+      }
+    ]
+  },
+  "tags": {
+    "mlflow.user": "Krzysztof",
+    "mlflow.source.name": "-c",
+    "mlflow.source.type": "LOCAL",
+    "mlflow.runName": "summary-test"
+  },
+  "artefacts": []
+}

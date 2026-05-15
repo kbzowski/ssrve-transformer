@@ -1,0 +1,232 @@
+{
+  "experiment_id": "1",
+  "experiment_name": "ssrve-option-b-v2",
+  "tracking_uri": "http://localhost:5000",
+  "exported_at": "2026-05-15T09:41:56.208957+00:00",
+  "n_runs": 21,
+  "runs": [
+    {
+      "run_id": "dff24ba5c31f4676a8ac52a904d8c2cd",
+      "run_name": "best_model_L0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-18T10:26:26.643000+00:00",
+      "duration_seconds": 130.24,
+      "headline_metrics": {
+        "best_val_loss": 0.2668156990638146
+      },
+      "file": "dff24ba5c31f4676a8ac52a904d8c2cd.json"
+    },
+    {
+      "run_id": "57aaf88c255e4904af81a011276fcac2",
+      "run_name": "best_model_stage3_cct10.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-18T02:52:45.068000+00:00",
+      "duration_seconds": 5533.012,
+      "headline_metrics": {
+        "best_val_loss": 0.014832408310702214
+      },
+      "file": "57aaf88c255e4904af81a011276fcac2.json"
+    },
+    {
+      "run_id": "d77a9c73b4c24feba0865edb8004b12a",
+      "run_name": "best_model_stage3_cct5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-18T01:07:04.020000+00:00",
+      "duration_seconds": 6333.871,
+      "headline_metrics": {
+        "best_val_loss": 0.011643701232969761
+      },
+      "file": "d77a9c73b4c24feba0865edb8004b12a.json"
+    },
+    {
+      "run_id": "6985ac9269304d158f309162e215f19f",
+      "run_name": "best_model_stage2_d1.0_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T22:06:39.594000+00:00",
+      "duration_seconds": 10805.698,
+      "headline_metrics": {
+        "best_val_loss": 0.03460199084992592
+      },
+      "file": "6985ac9269304d158f309162e215f19f.json"
+    },
+    {
+      "run_id": "5085b6e0a32c471ba8d37d5695459657",
+      "run_name": "best_model_stage2_d1.0_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T19:22:34.153000+00:00",
+      "duration_seconds": 9834.535,
+      "headline_metrics": {
+        "best_val_loss": 0.03598596341907978
+      },
+      "file": "5085b6e0a32c471ba8d37d5695459657.json"
+    },
+    {
+      "run_id": "df3aa8e71faa4988b36fe003180a1d69",
+      "run_name": "best_model_stage2_d0.5_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T16:31:38.096000+00:00",
+      "duration_seconds": 10245.497,
+      "headline_metrics": {
+        "best_val_loss": 0.020999197776500996
+      },
+      "file": "df3aa8e71faa4988b36fe003180a1d69.json"
+    },
+    {
+      "run_id": "62ca6c442e4c48f0b02b71369762ea38",
+      "run_name": "best_model_stage2_d0.5_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T13:35:46.093000+00:00",
+      "duration_seconds": 10544.439,
+      "headline_metrics": {
+        "best_val_loss": 0.022451335850816507
+      },
+      "file": "62ca6c442e4c48f0b02b71369762ea38.json"
+    },
+    {
+      "run_id": "ea43aa06304248feb5ce65b651979621",
+      "run_name": "best_model_stage2_d0.3_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T11:27:16.630000+00:00",
+      "duration_seconds": 7698.948,
+      "headline_metrics": {
+        "best_val_loss": 1.5013908881407518
+      },
+      "file": "ea43aa06304248feb5ce65b651979621.json"
+    },
+    {
+      "run_id": "1ce7648e0cb440b5ab6d53f5fff39e76",
+      "run_name": "best_model_stage2_d0.3_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T10:04:03.032000+00:00",
+      "duration_seconds": 4982.289,
+      "headline_metrics": {
+        "best_val_loss": 0.019246871654803935
+      },
+      "file": "1ce7648e0cb440b5ab6d53f5fff39e76.json"
+    },
+    {
+      "run_id": "fa019074152449fbbd0740a2a651f199",
+      "run_name": "best_model_stage2_d1.0_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:42:54.660000+00:00",
+      "duration_seconds": 81.696,
+      "headline_metrics": {
+        "best_val_loss": 0.4384791415471297
+      },
+      "file": "fa019074152449fbbd0740a2a651f199.json"
+    },
+    {
+      "run_id": "29af90a48b07438ea3845673656b6362",
+      "run_name": "best_model_stage2_d1.0_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:41:25.963000+00:00",
+      "duration_seconds": 81.868,
+      "headline_metrics": {
+        "best_val_loss": 0.575971917464183
+      },
+      "file": "29af90a48b07438ea3845673656b6362.json"
+    },
+    {
+      "run_id": "cac7ac0decee4eb1853f3976c3cae326",
+      "run_name": "best_model_stage2_d0.5_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:39:59.248000+00:00",
+      "duration_seconds": 79.607,
+      "headline_metrics": {
+        "best_val_loss": 0.37026220445449537
+      },
+      "file": "cac7ac0decee4eb1853f3976c3cae326.json"
+    },
+    {
+      "run_id": "1c0af743aa35449dad92dc72d6f14a57",
+      "run_name": "best_model_stage2_d0.5_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:38:48.347000+00:00",
+      "duration_seconds": 63.892,
+      "headline_metrics": {
+        "best_val_loss": 1.8784316227986262
+      },
+      "file": "1c0af743aa35449dad92dc72d6f14a57.json"
+    },
+    {
+      "run_id": "5b9cdce6a17e46efad83db2b62a5e8c9",
+      "run_name": "best_model_stage2_d0.3_l5.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:37:40.009000+00:00",
+      "duration_seconds": 61.592,
+      "headline_metrics": {
+        "best_val_loss": 1.8690355374262884
+      },
+      "file": "5b9cdce6a17e46efad83db2b62a5e8c9.json"
+    },
+    {
+      "run_id": "76eb71ed829d4e56bb9898475a3f6d83",
+      "run_name": "best_model_stage2_d0.3_l1.0.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T09:36:33.722000+00:00",
+      "duration_seconds": 59.353,
+      "headline_metrics": {
+        "best_val_loss": 0.39863163003554714
+      },
+      "file": "76eb71ed829d4e56bb9898475a3f6d83.json"
+    },
+    {
+      "run_id": "b66cbe119ea0423fa4c323dcc5cae202",
+      "run_name": "best_model_frozen_embed.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-17T07:51:44.984000+00:00",
+      "duration_seconds": 4237.999,
+      "headline_metrics": {
+        "best_val_loss": 0.05054614664270328
+      },
+      "file": "b66cbe119ea0423fa4c323dcc5cae202.json"
+    },
+    {
+      "run_id": "ec389b23c54d42b99a405fe62c904ca1",
+      "run_name": "best_model_apollonius_sqrt_s03.pt",
+      "status": "FINISHED",
+      "start_time": "2026-04-16T18:00:26.877000+00:00",
+      "duration_seconds": 9223.258,
+      "headline_metrics": {
+        "best_val_loss": 0.007728914658610637
+      },
+      "file": "ec389b23c54d42b99a405fe62c904ca1.json"
+    },
+    {
+      "run_id": "6563fe1105b141c6975ca1c83abe7286",
+      "run_name": "summary-test",
+      "status": "FINISHED",
+      "start_time": "2026-04-16T17:37:20.893000+00:00",
+      "duration_seconds": 0.248,
+      "headline_metrics": {},
+      "file": "6563fe1105b141c6975ca1c83abe7286.json"
+    },
+    {
+      "run_id": "fe23bf6f64ae44fa9398464d82905bfa",
+      "run_name": "artifact-test",
+      "status": "FINISHED",
+      "start_time": "2026-04-16T17:05:43.659000+00:00",
+      "duration_seconds": 0.101,
+      "headline_metrics": {},
+      "file": "fe23bf6f64ae44fa9398464d82905bfa.json"
+    },
+    {
+      "run_id": "2bdee2806af6424aa74b6bd02581c64b",
+      "run_name": "smoke-test-v2",
+      "status": "FINISHED",
+      "start_time": "2026-04-16T17:05:22.335000+00:00",
+      "duration_seconds": 0.256,
+      "headline_metrics": {},
+      "file": "2bdee2806af6424aa74b6bd02581c64b.json"
+    },
+    {
+      "run_id": "38403109b6944c4bb65950390b3a5c7f",
+      "run_name": "smoke-test",
+      "status": "RUNNING",
+      "start_time": "2026-04-16T17:04:46.022000+00:00",
+      "duration_seconds": null,
+      "headline_metrics": {},
+      "file": "38403109b6944c4bb65950390b3a5c7f.json"
+    }
+  ]
+}

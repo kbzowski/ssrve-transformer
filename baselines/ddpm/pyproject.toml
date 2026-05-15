@@ -1,0 +1,28 @@
+[project]
+name = "ssrve-ddpm-baseline"
+version = "0.1.0"
+description = "Conditional DDPM baseline for SSRVE generation, fair comparison vs transformer."
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.11.0+cu126",
+    "diffusers>=0.27",
+    "einops>=0.7",
+    "h5py>=3.10",
+    "numpy>=1.26",
+    "scikit-image>=0.22",
+    "pyyaml>=6.0",
+    "mlflow>=2.10",
+    "tqdm>=4.66",
+    "matplotlib>=3.8",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

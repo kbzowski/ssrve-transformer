@@ -1,0 +1,85 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.tox/
+htmlcov/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- Build / caches ---
+build/
+dist/
+cache/
+*.spec
+
+# --- Large data (use Zenodo, not git) ---
+checkpoints/
+dataset*/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.npz
+
+# --- ML experiment tracking ---
+/runs/
+/mlruns/
+/mlartifacts/
+
+# --- IDE / tooling ---
+.idea/
+.vscode/
+.claude/
+.remember/
+.agents/
+.mcp.json
+.prototools
+
+# --- Project-specific outputs ---
+Results_*
+results/
+temp_*/
+pymoo_src/
+grant/
+CP1000-Sources/
+L0v2_run.json
+OUTPUT.md
+
+# --- Frontend / docs build artefacts ---
+node_modules/
+package.json
+package-lock.json
+bun.lock
+skills-lock.json
+
+# --- LaTeX intermediates (if the paper source is co-located) ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
