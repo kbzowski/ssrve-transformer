@@ -29,7 +29,7 @@ keywords:
   - deep learning
   - optimal transport
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Generation of statistically similar representative volume elements for multi-phase steels using an encoder-decoder transformer with differentiable soft-Voronoi tessellation"
   authors:
     - given-names: Krzysztof
@@ -38,6 +38,4 @@ preferred-citation:
     - given-names: "Łukasz"
       family-names: Rauch
       orcid: "https://orcid.org/0000-0001-5366-743X"
-  journal: "Computational Materials Science"
   year: 2026
-  doi: "TBA"

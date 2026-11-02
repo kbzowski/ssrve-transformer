@@ -3,10 +3,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208749.svg)](https://doi.org/10.5281/zenodo.20208749)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Code for the paper *Generation of statistically similar representative volume
-elements for multi-phase steels using an encoder-decoder transformer with
-differentiable soft-Voronoi tessellation* (Bzowski & Rauch, Computational
-Materials Science, 2026, DOI: TBA).
+Code for the manuscript *Generation of statistically similar representative
+volume elements for multi-phase steels using an encoder-decoder transformer with
+differentiable soft-Voronoi tessellation* (Bzowski & Rauch, 2026).
 
 A transformer reads a cooling curve and emits a small set of nucleation
 parameters; a differentiable Apollonius soft-Voronoi head turns that set
@@ -62,14 +61,13 @@ RULES.md                      grain conventions, periodic BC
 ## Cite
 
 ```bibtex
-@article{bzowski2026ssrvetransformer,
-  author  = {Bzowski, Krzysztof and Rauch, {\L}ukasz},
-  title   = {Generation of statistically similar representative volume elements
-             for multi-phase steels using an encoder-decoder transformer with
-             differentiable soft-Voronoi tessellation},
-  journal = {Computational Materials Science},
-  year    = {2026},
-  doi     = {TBA}
+@unpublished{bzowski2026ssrvetransformer,
+  author = {Bzowski, Krzysztof and Rauch, {\L}ukasz},
+  title  = {Generation of statistically similar representative volume elements
+            for multi-phase steels using an encoder-decoder transformer with
+            differentiable soft-Voronoi tessellation},
+  year   = {2026},
+  note   = {Manuscript}
 }
 ```
 
