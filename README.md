@@ -42,7 +42,7 @@ snapshot of all 21 ablation runs lives in `mlflow_export/runs/`.
 
 The raw SSRVE dataset, the HDF5 training cache, and the trained checkpoints
 are hosted separately on Zenodo
-([10.5281/zenodo.20208749](https://doi.org/10.5281/zenodo.20208749))
+([10.5281/zenodo.20202883](https://doi.org/10.5281/zenodo.20202883))
 because they are too large to ship with git.
 
 ## Layout
