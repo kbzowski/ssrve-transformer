@@ -58,19 +58,6 @@ mlflow_export/                JSON snapshot of training runs
 RULES.md                      grain conventions, periodic BC
 ```
 
-## Cite
-
-```bibtex
-@unpublished{bzowski2026ssrvetransformer,
-  author = {Bzowski, Krzysztof and Rauch, {\L}ukasz},
-  title  = {Generation of statistically similar representative volume elements
-            for multi-phase steels using an encoder-decoder transformer with
-            differentiable soft-Voronoi tessellation},
-  year   = {2026},
-  note   = {Manuscript}
-}
-```
-
 ## License
 
 MIT.

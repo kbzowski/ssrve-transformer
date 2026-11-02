@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "SSRVE Transformer: encoder-decoder transformer with differentiable Apollonius soft-Voronoi decoder for multiphase microstructure generation"
-message: "If you use this software, please cite the accompanying paper (preferred-citation below)."
+message: "If you use this software, please cite it using the metadata in this file."
 type: software
 authors:
   - given-names: Krzysztof
@@ -28,14 +28,3 @@ keywords:
   - microstructure generation
   - deep learning
   - optimal transport
-preferred-citation:
-  type: unpublished
-  title: "Generation of statistically similar representative volume elements for multi-phase steels using an encoder-decoder transformer with differentiable soft-Voronoi tessellation"
-  authors:
-    - given-names: Krzysztof
-      family-names: Bzowski
-      orcid: "https://orcid.org/0000-0002-1784-2584"
-    - given-names: "Łukasz"
-      family-names: Rauch
-      orcid: "https://orcid.org/0000-0001-5366-743X"
-  year: 2026
